@@ -6,10 +6,8 @@ const navOpen = ref(false)
 <template> 
     <div>
 
-        <div>
-
+        <div class="sm:hidden bg-gray-900 px-4 py-2 text-white shadow-[0_10px_15px_rgba(0,0,0,0.5)]">
             <div>
-
                 <button @click="navOpen = !navOpen">
 
                     <svg v-bind:class="navOpen ? 'hidden' : '' " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -19,23 +17,25 @@ const navOpen = ref(false)
                     <svg v-bind:class="navOpen ? '' : 'hidden' " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                     </svg>
-
-
                 </button>
-
             </div>
 
-            <nav v-bind:class="navOpen ? '' : 'hidden' ">
+            <nav v-bind:class="navOpen ? '' : 'hidden'">
                 <a href="#" class="block">About Me</a>
                 <a href="#" class="block">Projects</a>
                 <a href="#" class="block">Experience</a>
                 <a href="#" class="block">Contact</a>
-
             </nav>
-
         </div>
 
-        {{ navOpen }}
+        <div class="px-4 py-2 bg-gray-900 text-white hidden sm:block shadow-[0_10px_15px_rgba(0,0,0,0.5)]">
+            <div class="flex gap-x-6">
+                <a href="#" class="block">About Me</a>
+                <a href="#" class="block">Projects</a>
+                <a href="#" class="block">Experience</a>
+                <a href="#" class="block">Contact</a>
+            </div>
+        </div>
 
     </div>
 </template>
