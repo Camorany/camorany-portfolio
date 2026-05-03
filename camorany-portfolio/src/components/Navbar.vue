@@ -20,11 +20,16 @@ const navOpen = ref(false)
                 </button>
             </div>
 
-            <nav v-bind:class="navOpen ? '' : 'hidden'">
-                <a href="#" class="block">About Me</a>
-                <a href="#" class="block">Projects</a>
-                <a href="#" class="block">Experience</a>
-                <a href="#" class="block">Contact</a>
+            <nav
+                class="overflow-hidden transition-all duration-600 ease-in-out"
+                :class="navOpen ? 'max-h-60 opacity-100 mt-1' : 'max-h-0 opacity-0'"
+                >
+
+                <a href="#" class="block py-1">About Me</a>
+                <a href="#" class="block py-1">Projects</a>
+                <a href="#" class="block py-1">Experience</a>
+                <a href="#" class="block py-1">Contact</a>
+
             </nav>
         </div>
 
