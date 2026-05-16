@@ -37,14 +37,43 @@ const navOpen = ref(false)
         <!-- Desktop Navbar -->
         <div class="px-4 py-8 bg-gray-900 text-white hidden sm:block shadow-[0_10px_15px_rgba(0,0,0,0.5)]">
             <div class="flex items-center">
-                <div class="pl-3">
+                <a class="pl-3 hover:text-green-600 transition duration-300" href="#">
                     <h2 class="font-bold">Cameron Lane</h2>
-                </div>
+                </a>
                 <div class="flex ml-auto lg:gap-x-35 md:gap-x-18 sm:gap-x-9 pr-15">
-                    <a href="#">About Me</a>
-                    <a href="#">Projects</a>
-                    <a href="#">Experience</a>
-                    <a href="#">Contact</a>
+
+                    <a class="relative inline-block py-1 group " href="#">
+                        About Me
+                        <span
+                            class="absolute left-0 -bottom-0.5 h-[1px] w-full bg-green-600
+                            scale-x-0 transition-transform duration-300
+                            group-hover:scale-x-100"
+                        ></span>
+                    </a>
+                    <a class="relative inline-block py-1 group" href="#">
+                        Projects
+                        <span
+                            class="absolute left-0 -bottom-0.5 h-[1px] w-full bg-green-600
+                            scale-x-0 transition-transform duration-300
+                            group-hover:scale-x-100"
+                        ></span>
+                    </a>
+                    <a class="relative inline-block py-1 group" href="#">
+                        Experience
+                        <span
+                            class="absolute left-0 -bottom-0.5 h-[1px] w-full bg-green-600
+                            scale-x-0 transition-transform duration-300
+                            group-hover:scale-x-100"
+                        ></span>
+                    </a>
+                    <a class="relative inline-block py-1 group" href="#">
+                        Contact
+                        <span
+                            class="absolute left-0 -bottom-0.5 h-[1px] w-full bg-green-600
+                            scale-x-0 transition-transform duration-300
+                            group-hover:scale-x-100"
+                        ></span>
+                    </a>
                 </div>
             </div>
         </div>
