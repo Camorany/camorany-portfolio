@@ -4,7 +4,7 @@ const navOpen = ref(false)
 </script>
 
 <template> 
-    <div class="navbar">
+    <div class="navbar fixed top-0 left-0 w-full z-50">
         
         <!-- Mobile Navbar -->
         <div class="sm:hidden bg-gray-900 px-8 py-4 text-white shadow-[0_10px_15px_rgba(0,0,0,0.5)]">
@@ -38,7 +38,7 @@ const navOpen = ref(false)
         <div class="px-4 py-8 bg-gray-900 text-white hidden sm:block shadow-[0_10px_15px_rgba(0,0,0,0.5)]">
             <div class="flex items-center">
                 <div class="pl-3">
-                    <h2>Cameron Lane</h2>
+                    <h2 class="font-bold">Cameron Lane</h2>
                 </div>
                 <div class="flex ml-auto lg:gap-x-35 md:gap-x-18 sm:gap-x-9 pr-15">
                     <a href="#">About Me</a>
