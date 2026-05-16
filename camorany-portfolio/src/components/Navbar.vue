@@ -4,9 +4,10 @@ const navOpen = ref(false)
 </script>
 
 <template> 
-    <div>
-
-        <div class="sm:hidden bg-gray-900 px-4 py-2 text-white shadow-[0_10px_15px_rgba(0,0,0,0.5)]">
+    <div class="navbar">
+        
+        <!-- Mobile Navbar -->
+        <div class="sm:hidden bg-gray-900 px-8 py-4 text-white shadow-[0_10px_15px_rgba(0,0,0,0.5)]">
             <div>
                 <button @click="navOpen = !navOpen">
 
@@ -33,12 +34,18 @@ const navOpen = ref(false)
             </nav>
         </div>
 
-        <div class="px-4 py-2 bg-gray-900 text-white hidden sm:block shadow-[0_10px_15px_rgba(0,0,0,0.5)]">
-            <div class="flex gap-x-6">
-                <a href="#" class="block">About Me</a>
-                <a href="#" class="block">Projects</a>
-                <a href="#" class="block">Experience</a>
-                <a href="#" class="block">Contact</a>
+        <!-- Desktop Navbar -->
+        <div class="px-4 py-8 bg-gray-900 text-white hidden sm:block shadow-[0_10px_15px_rgba(0,0,0,0.5)]">
+            <div class="flex items-center">
+                <div class="pl-3">
+                    <h2>Cameron Lane</h2>
+                </div>
+                <div class="flex ml-auto lg:gap-x-35 md:gap-x-18 sm:gap-x-9 pr-15">
+                    <a href="#">About Me</a>
+                    <a href="#">Projects</a>
+                    <a href="#">Experience</a>
+                    <a href="#">Contact</a>
+                </div>
             </div>
         </div>
 

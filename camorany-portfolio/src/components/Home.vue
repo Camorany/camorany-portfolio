@@ -2,7 +2,7 @@
 </script>
 
 <template> 
-    <div class="flex flex-col items-center justify-center min-h-screen m-8 outline-2 outline-blue-500 p-3 gap-10 text-white">
+    <div class="flex flex-col items-center justify-center min-h-screen m-3 outline-2 outline-blue-500 gap-10 text-white">
         <h1 class="text-4xl font-bold">Cameron Lane</h1>
 
 
