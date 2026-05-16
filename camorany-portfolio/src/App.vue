@@ -7,7 +7,6 @@ import Home from './components/Home.vue';
   <div>
     <Navbar />
     <Home />
-
   </div>
 </template>
 
