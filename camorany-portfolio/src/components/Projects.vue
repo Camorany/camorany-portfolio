@@ -4,7 +4,7 @@ import { Code } from 'lucide-vue-next'
 </script>
 
 <template>
-  <section id="projects" class="min-h-screen bg-gray-900 text-white flex items-center justify-center px-10 py-20 md:py-30"
+  <section id="projects" class="min-h-screen bg-gray-900 text-white flex items-center justify-center px-10 py-30 lg:py-30"
   >
     <div
       class="max-w-7xl w-full flex flex-col md:flex-row p-2"
