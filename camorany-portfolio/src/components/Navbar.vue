@@ -9,7 +9,7 @@ const navOpen = ref(false)
         <!-- Mobile Navbar -->
         <div class="sm:hidden bg-gray-900 px-8 py-4 text-white shadow-[0_10px_15px_rgba(0,0,0,0.5)]">
             <div class="px-2 flex justify-between">
-                <a class="hover:text-green-600 transition duration-300" href="#">
+                <a class="hover:text-green-600 transition duration-300" href="#home">
                     <h2 class="font-bold">Cameron Lane</h2>
                 </a>
                 <button @click="navOpen = !navOpen">
@@ -29,7 +29,7 @@ const navOpen = ref(false)
                 :class="navOpen ? 'max-h-60 opacity-100 mt-1' : 'max-h-0 opacity-0'"
                 >
 
-                <a href="#" class="block py-1">About Me</a>
+                <a href="#aboutme" class="block py-1">About Me</a>
                 <a href="#" class="block py-1">Projects</a>
                 <a href="#" class="block py-1">Experience</a>
                 <a href="#" class="block py-1">Contact</a>
@@ -40,12 +40,12 @@ const navOpen = ref(false)
         <!-- Desktop Navbar -->
         <div class="px-4 py-8 bg-gray-900 text-white hidden sm:block shadow-[0_10px_15px_rgba(0,0,0,0.5)]">
             <div class="flex justify-between items-center">
-                <a class="pl-3 hover:text-green-600 transition duration-300" href="#">
+                <a class="pl-3 hover:text-green-600 transition duration-300" href="#home">
                     <h2 class="font-bold">Cameron Lane</h2>
                 </a>
                 <div class="flex lg:gap-x-35 md:gap-x-18 sm:gap-x-9 pr-15">
 
-                    <a class="relative inline-block py-1 group " href="#">
+                    <a class="relative inline-block py-1 group " href="#aboutme">
                         About Me
                         <span
                             class="absolute left-0 -bottom-0.5 h-[1px] w-full bg-green-600

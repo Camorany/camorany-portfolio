@@ -5,7 +5,7 @@ import { Code } from 'lucide-vue-next'
 
 <template>
   <section
-    class="min-h-screen bg-gray-900 text-white flex items-center justify-center px-30 py-20 md:py-0"
+    id="aboutme" class="min-h-screen bg-gray-900 text-white flex items-center justify-center px-30 py-20 md:py-0"
   >
     <div
       class="max-w-7xl w-full flex flex-col md:flex-row gap-8 p-2"
@@ -82,7 +82,7 @@ import { Code } from 'lucide-vue-next'
 
       <!-- RIGHT SIDE -->
       <div class="flex justify-center items-center md:w-[45%] w-full md:text-left">
-        <div class="w-full max-w-[500px] aspect-[6/5] rounded overflow-hidden shadow-[0_10px_40px_#3deb715d]">
+        <div class="w-full max-w-[500px] aspect-[6/5] rounded-3xl overflow-hidden shadow-[0_10px_40px_#3deb715d]">
                 <img
                     src="../assets/aboutme/about-me-pic.jpg"
                     alt="About Me Picture"
