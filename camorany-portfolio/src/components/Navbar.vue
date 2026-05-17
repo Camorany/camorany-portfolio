@@ -39,11 +39,11 @@ const navOpen = ref(false)
 
         <!-- Desktop Navbar -->
         <div class="px-4 py-8 bg-gray-900 text-white hidden sm:block shadow-[0_10px_15px_rgba(0,0,0,0.5)]">
-            <div class="flex items-center">
+            <div class="flex justify-between items-center">
                 <a class="pl-3 hover:text-green-600 transition duration-300" href="#">
                     <h2 class="font-bold">Cameron Lane</h2>
                 </a>
-                <div class="flex ml-auto lg:gap-x-35 md:gap-x-18 sm:gap-x-9 pr-15">
+                <div class="flex lg:gap-x-35 md:gap-x-18 sm:gap-x-9 pr-15">
 
                     <a class="relative inline-block py-1 group " href="#">
                         About Me
