@@ -8,7 +8,10 @@ const navOpen = ref(false)
         
         <!-- Mobile Navbar -->
         <div class="sm:hidden bg-gray-900 px-8 py-4 text-white shadow-[0_10px_15px_rgba(0,0,0,0.5)]">
-            <div>
+            <div class="px-2 flex justify-between">
+                <a class="hover:text-green-600 transition duration-300" href="#">
+                    <h2 class="font-bold">Cameron Lane</h2>
+                </a>
                 <button @click="navOpen = !navOpen">
 
                     <svg v-bind:class="navOpen ? 'hidden' : '' " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -22,7 +25,7 @@ const navOpen = ref(false)
             </div>
 
             <nav
-                class="overflow-hidden transition-all duration-600 ease-in-out"
+                class="px-2 overflow-hidden transition-all duration-600 ease-in-out"
                 :class="navOpen ? 'max-h-60 opacity-100 mt-1' : 'max-h-0 opacity-0'"
                 >
 
