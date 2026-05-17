@@ -11,7 +11,7 @@ import { GithubIcon, LinkedinIcon } from 'lucide-vue-next'
     >
       
       <!-- LEFT SIDE -->
-      <div class="flex justify-center md:w-1/2 w-full">
+      <div class="flex justify-center md:justify-start md:w-1/2 w-full">
 
             <!--DESKTOP ICONS -->
             <div class="w-30 hidden md:flex justify-center items-center">
