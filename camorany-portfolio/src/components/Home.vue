@@ -4,7 +4,7 @@ import { GithubIcon, LinkedinIcon } from 'lucide-vue-next'
 
 <template>
   <section
-    class="min-h-screen bg-gray-900 text-white flex items-center justify-center px-10 pt-30 md:pt-10"
+    class="min-h-screen bg-gray-900 text-white flex items-center justify-center px-10 pt-30 md:pt-10 py-20 md:py-0"
   >
     <div
       class="max-w-7xl w-full flex flex-col md:flex-row items-center gap-8 p-2"
