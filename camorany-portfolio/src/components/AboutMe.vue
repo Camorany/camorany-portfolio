@@ -50,7 +50,7 @@ import { Code } from 'lucide-vue-next'
                 Golang
                 </button>
                 <button class="bg-green-600 text-black px-6 py-3 rounded-4xl font-semibold hover:text-green-600 hover:bg-black border hover:border-green-600 transition">
-                Angular / AngularJs
+                Angular / AngularJS
                 </button>
                 <button class="bg-green-600 text-black px-6 py-3 rounded-4xl font-semibold hover:text-green-600 hover:bg-black border hover:border-green-600 transition">
                 React.js
@@ -84,7 +84,7 @@ import { Code } from 'lucide-vue-next'
       <div class="flex justify-center items-center md:w-[45%] w-full md:text-left">
         <div class="w-full max-w-[500px] aspect-[6/5] rounded overflow-hidden shadow-[0_10px_40px_#3deb715d]">
                 <img
-                    src="../assets/home/portfolio-hero-pic.jpg"
+                    src="../assets/aboutme/about-me-pic.jpg"
                     alt="About Me Picture"
                     class="w-full h-full object-cover"
                 />
