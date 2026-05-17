@@ -31,7 +31,7 @@ const navOpen = ref(false)
 
                 <a href="#aboutme" class="block py-1">About Me</a>
                 <a href="#projects" class="block py-1">Projects</a>
-                <a href="#" class="block py-1">Experience</a>
+                <a href="#experience" class="block py-1">Experience</a>
                 <a href="#" class="block py-1">Contact</a>
 
             </nav>
@@ -61,7 +61,7 @@ const navOpen = ref(false)
                             group-hover:scale-x-100"
                         ></span>
                     </a>
-                    <a class="relative inline-block py-1 group" href="#">
+                    <a class="relative inline-block py-1 group" href="#experience">
                         Experience
                         <span
                             class="absolute left-0 -bottom-0.5 h-[1px] w-full bg-green-600

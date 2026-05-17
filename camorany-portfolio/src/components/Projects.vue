@@ -9,15 +9,14 @@ import { Code } from 'lucide-vue-next'
     <div
       class="max-w-7xl w-full flex flex-col md:flex-row p-2"
     >
-      
-      <!-- LEFT SIDE -->
+
       <div class="flex flex-col items-center w-full">
         
             <h1 class=" text-5xl font-bold text-green-600 mb-15">
             Projects
             </h1>
                 
-                <div class="grid grid-rows-2 md:grid-cols-2 gap-20">
+                <div class="grid grid-cols-2 md:grid-cols-2 gap-20">
 
                     <!--HYPERTROPHY EDU CARD-->
                     <div class="group relative rounded-3xl aspect-[6/4] overflow-hidden shadow-[0_10px_40px_#3deb715d] max-w-md">
