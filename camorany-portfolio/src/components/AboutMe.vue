@@ -12,7 +12,7 @@ import { Code } from 'lucide-vue-next'
     >
       
       <!-- LEFT SIDE -->
-      <div class="flex flex-col md:w-[55%] w-full">
+      <div class="flex flex-col lg:w-[55%] w-full">
         
         <h1 class=" text-5xl font-bold text-green-600 mb-5">
           About Me
@@ -24,8 +24,16 @@ import { Code } from 'lucide-vue-next'
           Eager to contribute to impactful projects while continuing to grow in the tech industry.
         </p>
 
+        <div class="lg:hidden w-full aspect-[6/5] rounded-3xl overflow-hidden shadow-[0_5px_20px_#3deb715d] mb-8">
+                <img
+                    src="../assets/aboutme/about-me-pic.jpg"
+                    alt="About Me Picture"
+                    class="w-full h-full object-cover"
+                />
+        </div>
+
         <!-- BUTTONS -->
-        <div class="flex justify-center md:justify-start mb-20">
+        <div class="flex justify-center md:justify-start mb-10">
             <button class="cursor-pointer border border-green-600 px-6 py-3 rounded-xl hover:scale-105 hover:shadow-[0_3px_10px__rgba(255,255,255,0.3)] transition" href="#">
                 Contact Me
             </button>
@@ -81,7 +89,7 @@ import { Code } from 'lucide-vue-next'
       </div>
 
       <!-- RIGHT SIDE -->
-      <div class="flex justify-center items-center md:w-[45%] w-full md:text-left">
+      <div class="lg:flex justify-center items-center hidden md:w-[45%] w-full md:text-left">
         <div class="w-full max-w-[500px] aspect-[6/5] rounded-3xl overflow-hidden shadow-[0_10px_40px_#3deb715d]">
                 <img
                     src="../assets/aboutme/about-me-pic.jpg"
