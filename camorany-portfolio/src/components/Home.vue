@@ -70,17 +70,13 @@ import { GithubIcon, LinkedinIcon } from 'lucide-vue-next'
 
         <!-- BUTTONS -->
         <div class="flex gap-4 justify-center md:justify-start">
-          <button
-            class="cursor-pointer bg-green-600 text-black px-6 py-3 rounded-xl font-semibold hover:scale-105 hover:shadow-[0_3px_10px__rgba(255,255,255,0.3)] transition"
-          >
+          <a class="cursor-pointer bg-green-600 text-black px-6 py-3 rounded-xl font-semibold hover:scale-105 hover:shadow-[0_3px_10px__rgba(255,255,255,0.3)] transition">
             Download CV
-          </button>
+          </a>
 
-          <button
-            class="cursor-pointer border border-green-600 px-6 py-3 rounded-xl hover:scale-105 hover:shadow-[0_3px_10px__rgba(255,255,255,0.3)] transition"
-          >
+          <a class="cursor-pointer border border-green-600 px-6 py-3 rounded-xl hover:scale-105 hover:shadow-[0_3px_10px__rgba(255,255,255,0.3)] transition" href="#projects">
             Projects
-          </button>
+          </a>
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@ import { Code } from 'lucide-vue-next'
 
 <template>
   <section
-    id="aboutme" class="min-h-screen bg-gray-900 text-white flex items-center justify-center px-30 py-20 md:py-0"
+    id="aboutme" class="min-h-screen bg-gray-900 text-white flex items-center justify-center px-30"
   >
     <div
       class="max-w-7xl w-full flex flex-col md:flex-row gap-8 p-2"
@@ -88,7 +88,7 @@ import { Code } from 'lucide-vue-next'
                     alt="About Me Picture"
                     class="w-full h-full object-cover"
                 />
-            </div>
+        </div>
       </div>
     </div>
   </section>
