@@ -7,9 +7,9 @@ const navOpen = ref(false)
     <div class="navbar fixed top-0 left-0 w-full z-50">
         
         <!-- Mobile Navbar -->
-        <div class="sm:hidden bg-gray-900 px-8 py-4 text-white shadow-[0_10px_15px_rgba(0,0,0,0.5)]">
+        <div class="sm:hidden bg-gray-900 px-8 py-4 text-slate-300 shadow-[0_10px_15px_rgba(0,0,0,0.5)]">
             <div class="px-2 flex justify-between">
-                <a class="hover:text-green-600 transition duration-300" href="#home">
+                <a class="hover:text-emerald-600 transition duration-300" href="#home">
                     <h2 class="font-bold">Cameron Lane</h2>
                 </a>
                 <button @click="navOpen = !navOpen">
@@ -38,9 +38,9 @@ const navOpen = ref(false)
         </div>
 
         <!-- Desktop Navbar -->
-        <div class="px-4 py-8 bg-gray-900 text-white hidden sm:block shadow-[0_10px_15px_rgba(0,0,0,0.5)]">
+        <div class="px-4 py-8 bg-gray-900 text-slate-300 hidden sm:block shadow-[0_10px_15px_rgba(0,0,0,0.5)]">
             <div class="flex justify-between items-center">
-                <a class="pl-3 hover:text-green-600 transition duration-300" href="#home">
+                <a class="pl-3 hover:text-emerald-600 transition duration-300" href="#home">
                     <h2 class="font-bold">Cameron Lane</h2>
                 </a>
                 <div class="flex lg:gap-x-35 md:gap-x-18 sm:gap-x-9 pr-15">
@@ -48,7 +48,7 @@ const navOpen = ref(false)
                     <a class="relative inline-block py-1 group " href="#aboutme">
                         About Me
                         <span
-                            class="absolute left-0 -bottom-0.5 h-[1px] w-full bg-green-600
+                            class="absolute left-0 -bottom-0.5 h-[1px] w-full bg-emerald-500
                             scale-x-0 transition-transform duration-300
                             group-hover:scale-x-100"
                         ></span>
@@ -56,7 +56,7 @@ const navOpen = ref(false)
                     <a class="relative inline-block py-1 group" href="#projects">
                         Projects
                         <span
-                            class="absolute left-0 -bottom-0.5 h-[1px] w-full bg-green-600
+                            class="absolute left-0 -bottom-0.5 h-[1px] w-full bg-emerald-500
                             scale-x-0 transition-transform duration-300
                             group-hover:scale-x-100"
                         ></span>
@@ -64,7 +64,7 @@ const navOpen = ref(false)
                     <a class="relative inline-block py-1 group" href="#experience">
                         Experience
                         <span
-                            class="absolute left-0 -bottom-0.5 h-[1px] w-full bg-green-600
+                            class="absolute left-0 -bottom-0.5 h-[1px] w-full bg-emerald-500
                             scale-x-0 transition-transform duration-300
                             group-hover:scale-x-100"
                         ></span>
@@ -72,7 +72,7 @@ const navOpen = ref(false)
                     <a class="relative inline-block py-1 group" href="#">
                         Contact
                         <span
-                            class="absolute left-0 -bottom-0.5 h-[1px] w-full bg-green-600
+                            class="absolute left-0 -bottom-0.5 h-[1px] w-full bg-emerald-500
                             scale-x-0 transition-transform duration-300
                             group-hover:scale-x-100"
                         ></span>

@@ -4,7 +4,7 @@ import { Code } from 'lucide-vue-next'
 </script>
 
 <template>
-  <section id="projects" class="min-h-screen bg-gray-900 text-white flex items-center justify-center px-10 py-30 lg:py-30"
+  <section id="projects" class="min-h-screen bg-gray-900 text-slate-300 flex items-center justify-center px-10 py-30 lg:py-30"
   >
     <div
       class="max-w-7xl w-full flex flex-col md:flex-row p-2"
@@ -12,14 +12,14 @@ import { Code } from 'lucide-vue-next'
 
       <div class="flex flex-col items-center w-full">
         
-            <h1 class=" text-5xl font-bold text-green-600 mb-15">
+            <h1 class=" text-5xl font-bold text-emerald-600 mb-15">
             Projects
             </h1>
                 
                 <div class="grid grid-cols-2 md:grid-cols-2 gap-20">
 
                     <!--HYPERTROPHY EDU CARD-->
-                    <div class="group relative rounded-3xl aspect-[6/4] overflow-hidden shadow-[0_10px_40px_#3deb715d] max-w-md">
+                    <div class="group relative rounded-3xl aspect-[6/4] overflow-hidden shadow-[0_15px_50px_#0596695d] max-w-md">
                         <img
                             src="../assets/aboutme/about-me-pic.jpg"
                             alt="About Me Picture"
@@ -30,7 +30,7 @@ import { Code } from 'lucide-vue-next'
                          <div class="absolute inset-0 bg-black/70 flex flex-col items-center justify-center text-center p-5
                          opacity-0 group-hover:opacity-100 transition duration-300">
 
-                         <h3 class="text-white font-semibold text-2xl mb-5">
+                         <h3 class="text-slate-300 font-semibold text-2xl mb-5">
                             Hypertrophy EDU
                          </h3>
 
@@ -38,7 +38,7 @@ import { Code } from 'lucide-vue-next'
                             A web application utilising generative AI to provide legitimised fitness content and education.
                          </p>
 
-                         <a class="cursor-pointer border border-green-600 px-6 py-3 rounded-xl hover:scale-105 hover:shadow-[0_3px_10px__rgba(255,255,255,0.3)] transition">
+                         <a class="cursor-pointer border border-emerald-600 px-6 py-3 rounded-xl hover:scale-105 hover:shadow-[0_3px_10px__rgba(255,255,255,0.3)] transition">
                             View Project
                          </a>
 
@@ -46,7 +46,7 @@ import { Code } from 'lucide-vue-next'
                     </div>
 
                     <!--HTTP/1.1 PROTOCOL REMAKE CARD-->
-                    <div class="group relative rounded-3xl aspect-[6/4] overflow-hidden shadow-[0_10px_40px_#3deb715d] max-w-md">
+                    <div class="group relative rounded-3xl aspect-[6/4] overflow-hidden shadow-[0_15px_50px_#0596695d] max-w-md">
                         <img
                             src="../assets/aboutme/about-me-pic.jpg"
                             alt="About Me Picture"
@@ -57,7 +57,7 @@ import { Code } from 'lucide-vue-next'
                          <div class="absolute inset-0 bg-black/70 flex flex-col items-center justify-center text-center p-5
                          opacity-0 group-hover:opacity-100 transition duration-300">
 
-                         <h3 class="text-white font-semibold text-2xl mb-5">
+                         <h3 class="text-slate-300 font-semibold text-2xl mb-5">
                             HTTP/1.1 Remake
                          </h3>
 
@@ -65,7 +65,7 @@ import { Code } from 'lucide-vue-next'
                             A web application utilising generative AI to provide legitimised fitness content and education.
                          </p>
 
-                         <a class="cursor-pointer border border-green-600 px-6 py-3 rounded-xl hover:scale-105 hover:shadow-[0_3px_10px__rgba(255,255,255,0.3)] transition">
+                         <a class="cursor-pointer border border-emerald-600 px-6 py-3 rounded-xl hover:scale-105 hover:shadow-[0_3px_10px__rgba(255,255,255,0.3)] transition">
                             View Project
                          </a>
 

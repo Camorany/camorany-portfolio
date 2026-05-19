@@ -5,14 +5,14 @@ import { GraduationCap, BriefcaseBusiness } from 'lucide-vue-next'
 
 <template>
   <section
-    id="experience" class="min-h-screen bg-gray-900 text-white flex items-center justify-center px-30"
+    id="experience" class="min-h-screen bg-gray-900 text-slate-300 flex items-center justify-center px-30"
   >
 
     <div
       class="outline max-w-7xl w-full flex flex-col gap-8 justify-center p-2"
     >
 
-        <h1 class="text-center text-5xl font-bold text-green-600 mb-15">
+        <h1 class="text-center text-5xl font-bold text-emerald-600 mb-15">
             Experience
         </h1>
 
@@ -21,10 +21,10 @@ import { GraduationCap, BriefcaseBusiness } from 'lucide-vue-next'
             <div class="lg:w-1/2 w-full">
                 <!-- TITLE -->
                 <div class="flex gap-2 items-center md:justify-start mb-5">
-                    <h3 class="text-2xl font-semibold text-green-600">
+                    <h3 class="text-2xl font-semibold text-emerald-600">
                     Industry Experience
                     </h3>
-                    <BriefcaseBusiness class="w-5 h-5 transition-all duration-300 hover:-translate-y-1 text-green-600"/>
+                    <BriefcaseBusiness class="w-5 h-5 transition-all duration-300 hover:-translate-y-1 text-emerald-600"/>
                 </div>
 
                 <div class="flex flex-col justify-center">
@@ -45,10 +45,10 @@ import { GraduationCap, BriefcaseBusiness } from 'lucide-vue-next'
             <div class="lg:w-1/2 w-full">
                 <!-- TITLE -->
                 <div class="flex gap-2 items-center md:justify-start mb-5">
-                    <h3 class="text-2xl font-semibold text-green-600">
+                    <h3 class="text-2xl font-semibold text-emerald-600">
                     Education
                     </h3>
-                    <GraduationCap class="w-5 h-5 transition-all duration-300 hover:-translate-y-1 text-green-600"/>
+                    <GraduationCap class="w-5 h-5 transition-all duration-300 hover:-translate-y-1 text-emerald-600"/>
                 </div>
 
                 <div class="flex flex-col justify-center">

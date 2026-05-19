@@ -4,7 +4,7 @@ import { GithubIcon, LinkedinIcon } from 'lucide-vue-next'
 
 <template>
   <section
-    id="home" class="min-h-screen bg-gray-900 text-white flex items-center justify-center px-10 pt-30 md:pt-10 py-20 md:py-0"
+    id="home" class="min-h-screen bg-gray-900 text-slate-300 flex items-center justify-center px-10 pt-30 md:pt-10 py-20 md:py-0"
   >
     <div
       class="max-w-7xl w-full flex flex-col md:flex-row items-center gap-8 p-2"
@@ -17,16 +17,16 @@ import { GithubIcon, LinkedinIcon } from 'lucide-vue-next'
             <div class="w-30 hidden md:flex justify-center items-center">
                 <div class="hidden md:flex flex-col gap-6 left-6 items-center">
                   <a href="https://github.com/Camorany">
-                  <GithubIcon class="w-6 h-6 text-white transition-all duration-300 hover:-translate-y-1 hover:text-green-600" />
+                  <GithubIcon class="w-6 h-6 text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:text-emerald-600" />
                   </a>
 
                   <a href="https://www.linkedin.com/in/cameron-lane-a69842255">
-                  <LinkedinIcon class="w-6 h-6 text-white transition-all duration-300 hover:-translate-y-1 hover:text-green-600"/>
+                  <LinkedinIcon class="w-6 h-6 text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:text-emerald-600"/>
                   </a>
                 </div>
             </div>
 
-            <div class="w-72 h-72 md:w-96 md:h-96 rounded-full border-4 border-green-500 overflow-hidden shadow-[0_0_15px_#3deb71]">
+            <div class="w-72 h-72 md:w-96 md:h-96 rounded-full border-4 border-emerald-500 overflow-hidden shadow-[0_0_15px_#059669]">
             <img
                 src="../assets/home/portfolio-hero-pic.jpg"
                 alt="Profile"
@@ -39,10 +39,10 @@ import { GithubIcon, LinkedinIcon } from 'lucide-vue-next'
       <div class="md:w-1/2 w-full text-center md:text-left">
         <p class="text-lg mb-5">
           Hi, I'm a
-          <span class="text-green-600">Software Engineer</span>
+          <span class="text-emerald-600">Software Engineer</span>
         </p>
 
-        <h1 class=" text-5xl font-bold text-green-600 mb-5">
+        <h1 class=" text-5xl font-bold text-emerald-600 mb-5">
           Cameron Lane
         </h1>
 
@@ -52,11 +52,11 @@ import { GithubIcon, LinkedinIcon } from 'lucide-vue-next'
                 class="flex gap-6 items-center"
                 >
                 <a href="https://github.com/Camorany">
-                <GithubIcon class="w-6 h-6 text-white transition-all duration-300 hover:-translate-y-1 hover:text-green-600" />
+                <GithubIcon class="w-6 h-6 text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:text-emerald-600" />
                 </a>
 
                 <a href="https://www.linkedin.com/in/cameron-lane-a69842255/">
-                <LinkedinIcon class="w-6 h-6 text-white transition-all duration-300 hover:-translate-y-1 hover:text-green-600" />
+                <LinkedinIcon class="w-6 h-6 text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:text-emerald-600" />
                 </a>
                 </div>
 
@@ -70,11 +70,11 @@ import { GithubIcon, LinkedinIcon } from 'lucide-vue-next'
 
         <!-- BUTTONS -->
         <div class="flex gap-4 justify-center md:justify-start">
-          <a class="cursor-pointer bg-green-600 text-black px-6 py-3 rounded-xl font-semibold hover:scale-105 hover:shadow-[0_3px_10px__rgba(255,255,255,0.3)] transition">
+          <a class="cursor-pointer bg-emerald-600 text-black px-6 py-3 rounded-xl font-semibold hover:scale-105 hover:shadow-[0_3px_10px__rgba(255,255,255,0.3)] transition">
             Download CV
           </a>
 
-          <a class="cursor-pointer border border-green-600 px-6 py-3 rounded-xl hover:scale-105 hover:shadow-[0_3px_10px__rgba(255,255,255,0.3)] transition" href="#projects">
+          <a class="cursor-pointer border border-emerald-600 px-6 py-3 rounded-xl hover:scale-105 hover:shadow-[0_3px_10px__rgba(255,255,255,0.3)] transition" href="#projects">
             Projects
           </a>
         </div>
